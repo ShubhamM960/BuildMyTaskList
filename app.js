@@ -109,7 +109,7 @@ app.post("/delete", function(req,res){
       console.log(err);
     }
     else{
-      console.log("Successfully deleted from database");
+      console.log("Successfully deleted from the database");
         res.redirect("/");
     }
   });
